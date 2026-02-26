@@ -1279,8 +1279,9 @@
   left: 0px;
   top: 0px;
   position: absolute;
-  background: rgba(255, 255, 255, 0.05);
-  border-bottom: 1px rgba(255, 255, 255, 0.10) solid;
+  /* Dark semi-transparent navbar to avoid white-looking background */
+  background: rgb(1, 21, 38);
+  border-bottom: 1px rgba(255, 255, 255, 0.06) solid;
   backdrop-filter: blur(6.35px);
   justify-content: space-between;
   align-items: center;

@@ -1866,7 +1866,521 @@
   .desktop {
     width: 100%;
   }
-}.hero-section {
+}
+
+/* Laptop/Notebook (1024px - 1280px) */
+@media (max-width: 1280px) and (min-width: 1024px) {
+  .hero-section,
+  .about-section,
+  .products-section,
+  .reviews,
+  .maps-section,
+  .form-section {
+    padding: 60px 24px;
+  }
+
+  .navbar {
+    padding: 0 24px;
+  }
+
+  .maps-text {
+    gap: 60px;
+  }
+
+  .text-container_03 {
+    gap: 120px;
+  }
+}
+
+/* Tablet (768px - 1023px) */
+@media (max-width: 1023px) {
+  .hero-section {
+    height: auto;
+    padding: 40px 20px;
+    position: relative;
+    top: 0;
+  }
+
+  .leos-e-lubrificantes-de-alta-qualidade,
+  .leoselubrificantesdealtaqualidade_span {
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  .aqui-voc-encontra-os-melhores-leos-filtros-e-peas-automotivas-com-atendimento-especializado-e-entrega-rpida-para-que-voc-foque-no-que-importa-o-seu-servio,
+  .aquivocencontraosmelhoresleosfiltrosepeasautomotivascomatendimentoespecializadoeentregarpidaparaquevocfoquenoqueimportaoseuservio_span {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .button-container,
+  .button-container_01,
+  .button-container_02 {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    gap: 12px;
+  }
+
+  .catalog-button,
+  .whatsapp-button,
+  .contact-button,
+  .catalog-button_01,
+  .contact-button_01,
+  .catalog-button_02 {
+    width: 100%;
+  }
+
+  .about-container {
+    flex-direction: column;
+    height: auto;
+    gap: 30px;
+  }
+
+  .imagem-layout,
+  .imagem-barril {
+    width: 100%;
+    max-width: 400px;
+    align-self: center;
+    height: auto;
+  }
+
+  .about-text,
+  .about-text_01 {
+    width: 100%;
+    height: auto;
+  }
+
+  .gallery-container {
+    height: auto;
+    position: relative;
+  }
+
+  .gallery-1,
+  .gallery-2,
+  .gallery-3,
+  .gallery-4 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    left: 0 !important;
+    top: 0 !important;
+    margin-bottom: 20px;
+  }
+
+  .form-container {
+    flex-direction: column;
+    position: relative;
+    top: 0;
+  }
+
+  .form,
+  .form-elements {
+    width: 100%;
+  }
+
+  .componet-1 {
+    width: 100%;
+    height: auto;
+  }
+
+  .maps-text {
+    flex-direction: column;
+    gap: 20px;
+    max-width: 100%;
+  }
+
+  .text-container_02 {
+    width: 100%;
+  }
+
+  .clique-no-mapa-e-trace-sua-rota-at-ns,
+  .cliquenomapaetracesuarotaatns_span {
+    height: auto;
+  }
+
+  .text-input_09 {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .text-container_03 {
+    gap: 20px;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .link-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .distribuidora-de-leos-lubrificantes-e-filtros-em-so-paulo,
+  .distribuidoradeleoslubrificantesefiltrosemsopaulo_span_01,
+  .distribuidoradeleoslubrificantesefiltrosemsopaulo_span_02,
+  .distribuidoradeleoslubrificantesefiltrosemsopaulo_span_03 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .qualidade-segurana-e-preo-justo-na-simac-automotiva,
+  .qualidadeseguranaepreojustonasimacautomotiva_span {
+    font-size: 18px;
+  }
+
+  .porqueasimacamelhorescolhaemleosefiltros_span {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .maisde20anosdeexperinciaeparceriacomasmelhoresmarcasparagarantirdesempenhoseguranaequalidadeemcadamanuteno_span {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .frame-36 {
+    width: 100%;
+    height: auto;
+    padding: 16px;
+  }
+
+  .f1_span,
+  .f2_span,
+  .f3_span,
+  .f4_span {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .filtros-de-cmbio-automtico,
+  .filtros-cabine-filtros-vox-e-filtros-brasil,
+  .aditivos-e-aerossis,
+  .leos-lubrificantes,
+  .filtrosdecmbioautomtico_span,
+  .filtroscabinefiltrosvoxefiltrosbrasil_span,
+  .aditivoseaerossis_span,
+  .leoslubrificantes_span {
+    font-size: 20px;
+  }
+
+  .a-confiana-de-quem-j-escolheu-a-simac,
+  .aconfianadequemjescolheuasimac_span_01,
+  .aconfianadequemjescolheuasimac_span_02,
+  .aconfianadequemjescolheuasimac_span_03 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .veja-o-que-nossos-clientes-dizem-sobre-a-qualidade-dos-produtos-e-o-atendimento-que-oferecemos,
+  .vejaoquenossosclientesdizemsobreaqualidadedosprodutoseoatendimentoqueoferecemos_span_01 {
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .clique-no-mapa-e-trace-sua-rota-at-ns {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .rua-lauzane-606-capela-do-socorro-so-paulo-sp-04782-010,
+  .rualauzane606capeladosocorrosopaulosp04782-010_span {
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+  }
+
+  .form-contact-container {
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .form-text-input,
+  .text-input_11 {
+    width: 100%;
+  }
+
+  .googlemaps {
+    height: 300px;
+  }
+
+  .gallery-container {
+    padding: 0 20px;
+  }
+
+  .img-filtros,
+  .img-motor,
+  .img-filtros-de-cabine,
+  .img-leo {
+    width: 100%;
+    height: auto;
+  }
+
+  .frame-29,
+  .frame-29_01,
+  .frame-29_02,
+  .frame-29_03 {
+    width: 100%;
+  }
+}
+
+/* Mobile Grande (481px - 767px) */
+@media (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+
+  .hero-section,
+  .about-section,
+  .products-section,
+  .reviews,
+  .maps-section,
+  .form-section {
+    padding: 40px 16px;
+  }
+
+  .navbar {
+    padding: 16px;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .leos-e-lubrificantes-de-alta-qualidade,
+  .leoselubrificantesdealtaqualidade_span {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .parceirosnasuaperformance_span {
+    font-size: 16px;
+  }
+
+  .aqui-voc-encontra-os-melhores-leos-filtros-e-peas-automotivas-com-atendimento-especializado-e-entrega-rpida-para-que-voc-foque-no-que-importa-o-seu-servio,
+  .aquivocencontraosmelhoresleosfiltrosepeasautomotivascomatendimentoespecializadoeentregarpidaparaquevocfoquenoqueimportaoseuservio_span {
+    font-size: 16px;
+    line-height: 24px;
+    height: auto;
+  }
+
+  .distribuidora-de-leos-lubrificantes-e-filtros-em-so-paulo,
+  .distribuidoradeleoslubrificantesefiltrosemsopaulo_span_01,
+  .distribuidoradeleoslubrificantesefiltrosemsopaulo_span_02,
+  .distribuidoradeleoslubrificantesefiltrosemsopaulo_span_03 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .qualidade-segurana-e-preo-justo-na-simac-automotiva,
+  .qualidadeseguranaepreojustonasimacautomotiva_span {
+    font-size: 18px;
+  }
+
+  .porqueasimacamelhorescolhaemleosefiltros_span {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .maisde20anosdeexperinciaeparceriacomasmelhoresmarcasparagarantirdesempenhoseguranaequalidadeemcadamanuteno_span {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .text-container_03 {
+    flex-direction: column;
+    height: auto;
+    gap: 24px;
+  }
+
+  .frame-28,
+  .frame-28_01,
+  .frame-28_02,
+  .frame-28_03 {
+    width: 100%;
+  }
+
+  .year-button,
+  .activate-button,
+  .brands-button {
+    height: auto;
+    padding: 12px;
+  }
+
+  .f0_span,
+  .f00_span,
+  .f5_span,
+  .f1_span,
+  .f2_span,
+  .f3_span,
+  .f4_span {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .a-confiana-de-quem-j-escolheu-a-simac,
+  .aconfianadequemjescolheuasimac_span_01,
+  .aconfianadequemjescolheuasimac_span_02,
+  .aconfianadequemjescolheuasimac_span_03 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .veja-o-que-nossos-clientes-dizem-sobre-a-qualidade-dos-produtos-e-o-atendimento-que-oferecemos,
+  .vejaoquenossosclientesdizemsobreaqualidadedosprodutoseoatendimentoqueoferecemos_span_01 {
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .filtros-de-cmbio-automtico,
+  .filtros-cabine-filtros-vox-e-filtros-brasil,
+  .aditivos-e-aerossis,
+  .leos-lubrificantes {
+    font-size: 20px;
+  }
+
+  .clique-no-mapa-e-trace-sua-rota-at-ns,
+  .cliquenomapaetracesuarotaatns_span {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .rua-lauzane-606-capela-do-socorro-so-paulo-sp-04782-010,
+  .rualauzane606capeladosocorrosopaulosp04782-010_span {
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+  }
+
+  .googlemaps {
+    height: 300px;
+  }
+
+  .catalog-button,
+  .whatsapp-button,
+  .contact-button,
+  .catalog-button_01,
+  .contact-button_01,
+  .catalog-button_02,
+  .catalog-button_03 {
+    width: 100%;
+  }
+}
+
+/* Mobile Pequeno (até 480px) */
+@media (max-width: 480px) {
+  .hero-section,
+  .about-section,
+  .products-section,
+  .reviews,
+  .maps-section,
+  .form-section {
+    padding: 24px 12px;
+  }
+
+  .leos-e-lubrificantes-de-alta-qualidade,
+  .leoselubrificantesdealtaqualidade_span {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .aqui-voc-encontra-os-melhores-leos-filtros-e-peas-automotivas-com-atendimento-especializado-e-entrega-rpida-para-que-voc-foque-no-que-importa-o-seu-servio,
+  .aquivocencontraosmelhoresleosfiltrosepeasautomotivascomatendimentoespecializadoeentregarpidaparaquevocfoquenoqueimportaoseuservio_span {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .distribuidora-de-leos-lubrificantes-e-filtros-em-so-paulo,
+  .distribuidoradeleoslubrificantesefiltrosemsopaulo_span_01,
+  .distribuidoradeleoslubrificantesefiltrosemsopaulo_span_02,
+  .distribuidoradeleoslubrificantesefiltrosemsopaulo_span_03 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .qualidade-segurana-e-preo-justo-na-simac-automotiva,
+  .qualidadeseguranaepreojustonasimacautomotiva_span {
+    font-size: 16px;
+  }
+
+  .text-20,
+  .text-100,
+  .text-25,
+  .anos-no-mercado,
+  .clientes-ativos,
+  .marcas-disponveis {
+    width: 100%;
+  }
+
+  .porqueasimacamelhorescolhaemleosefiltros_span {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .maisde20anosdeexperinciaeparceriacomasmelhoresmarcasparagarantirdesempenhoseguranaequalidadeemcadamanuteno_span {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .f1_span,
+  .f2_span,
+  .f3_span,
+  .f4_span {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .a-confiana-de-quem-j-escolheu-a-simac,
+  .aconfianadequemjescolheuasimac_span_01,
+  .aconfianadequemjescolheuasimac_span_02,
+  .aconfianadequemjescolheuasimac_span_03 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .veja-o-que-nossos-clientes-dizem-sobre-a-qualidade-dos-produtos-e-o-atendimento-que-oferecemos,
+  .vejaoquenossosclientesdizemsobreaqualidadedosprodutoseoatendimentoqueoferecemos_span_01 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .clique-no-mapa-e-trace-sua-rota-at-ns,
+  .cliquenomapaetracesuarotaatns_span {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .rua-lauzane-606-capela-do-socorro-so-paulo-sp-04782-010,
+  .rualauzane606capeladosocorrosopaulosp04782-010_span {
+    font-size: 14px;
+  }
+
+  .googlemaps {
+    height: 250px;
+  }
+
+  .catalog-button,
+  .whatsapp-button,
+  .contact-button,
+  .catalog-button_01,
+  .contact-button_01,
+  .catalog-button_02,
+  .catalog-button_03 {
+    padding: 10px 16px;
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .navbar {
+    padding: 12px;
+    gap: 8px;
+  }
+}
+
+.hero-section {
   width: 100%;
   height: 770px;
   left: 0px;

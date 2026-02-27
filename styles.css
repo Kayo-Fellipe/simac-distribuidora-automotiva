@@ -2135,7 +2135,6 @@
 
   .hero-section,
   .about-section,
-  .products-section,
   .reviews,
   .maps-section,
   .form-section {
@@ -2179,47 +2178,6 @@
     font-size: 18px;
   }
 
-  .porqueasimacamelhorescolhaemleosefiltros_span {
-    font-size: 24px;
-    line-height: 32px;
-  }
-
-  .maisde20anosdeexperinciaeparceriacomasmelhoresmarcasparagarantirdesempenhoseguranaequalidadeemcadamanuteno_span {
-    font-size: 16px;
-    line-height: 24px;
-  }
-
-  .text-container_03 {
-    flex-direction: column;
-    height: auto;
-    gap: 24px;
-  }
-
-  .frame-28,
-  .frame-28_01,
-  .frame-28_02,
-  .frame-28_03 {
-    width: 100%;
-  }
-
-  .year-button,
-  .activate-button,
-  .brands-button {
-    height: auto;
-    padding: 12px;
-  }
-
-  .f0_span,
-  .f00_span,
-  .f5_span,
-  .f1_span,
-  .f2_span,
-  .f3_span,
-  .f4_span {
-    font-size: 24px;
-    line-height: 30px;
-  }
-
   .a-confiana-de-quem-j-escolheu-a-simac,
   .aconfianadequemjescolheuasimac_span_01,
   .aconfianadequemjescolheuasimac_span_02,
@@ -2233,13 +2191,6 @@
     width: 100%;
     text-align: center;
     font-size: 16px;
-  }
-
-  .filtros-de-cmbio-automtico,
-  .filtros-cabine-filtros-vox-e-filtros-brasil,
-  .aditivos-e-aerossis,
-  .leos-lubrificantes {
-    font-size: 20px;
   }
 
   .clique-no-mapa-e-trace-sua-rota-at-ns,
@@ -2274,7 +2225,6 @@
 @media (max-width: 480px) {
   .hero-section,
   .about-section,
-  .products-section,
   .reviews,
   .maps-section,
   .form-section {
@@ -2304,33 +2254,6 @@
   .qualidade-segurana-e-preo-justo-na-simac-automotiva,
   .qualidadeseguranaepreojustonasimacautomotiva_span {
     font-size: 16px;
-  }
-
-  .text-20,
-  .text-100,
-  .text-25,
-  .anos-no-mercado,
-  .clientes-ativos,
-  .marcas-disponveis {
-    width: 100%;
-  }
-
-  .porqueasimacamelhorescolhaemleosefiltros_span {
-    font-size: 20px;
-    line-height: 28px;
-  }
-
-  .maisde20anosdeexperinciaeparceriacomasmelhoresmarcasparagarantirdesempenhoseguranaequalidadeemcadamanuteno_span {
-    font-size: 14px;
-    line-height: 20px;
-  }
-
-  .f1_span,
-  .f2_span,
-  .f3_span,
-  .f4_span {
-    font-size: 24px;
-    line-height: 30px;
   }
 
   .a-confiana-de-quem-j-escolheu-a-simac,

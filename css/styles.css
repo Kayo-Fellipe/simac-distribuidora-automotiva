@@ -424,8 +424,8 @@ body {
 /* GOOGLE REVIEW ----------------------------------------------------------------------------------------------------- */
 .reviews {
   background: #f3f3f3;
-  padding: 50px 20px;
-  height: 80vh;
+  padding: 30px 20px;
+  height: 60vh;
 }
 
 .reviews-container {
@@ -433,6 +433,9 @@ body {
   margin: 0 auto;
 }
 
+.reviews-box{
+  padding: 20px 0px;
+}
 /* TOPO */
 .reviews-top {
   display: flex;
@@ -460,7 +463,7 @@ body {
 
 /* PRODUTOS ---------------------------------------------------------------------------------------------------------------------- */
 .products {
-  height: 130vh;
+  height: 100vh;
   background: linear-gradient(0deg, #000A12 0%, #023159 50%, #000A12 100%);
   padding: 40px 20px;
   color: #fff;
@@ -615,6 +618,267 @@ body {
   font-size: 15px;
   line-height: 1.6;
 }
+
+/* MAPS SECTION ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.maps-section {
+  max-width: 1920px;
+  margin: 0 auto;
+  background: #efefef;
+  padding: 40px 20px;
+  border-radius: 0 0 40px 40px;
+}
+
+/* ===== CONTAINER CENTRAL ===== */
+.maps-wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* ===== TOPO ===== */
+.maps-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+/* ===== TEXTO ===== */
+.maps-info h2 {
+  font-size: 32px;
+  font-weight: 800;
+  color: #0c1b2a;
+}
+
+.maps-info p {
+  font-size: 22px;
+  color: #5f6b76;
+}
+
+/* ===== BOTÃO ===== */
+.btn-whatsapp {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 22px;
+  border: 1px solid #000A12;
+  border-radius: 40px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #000A12;
+  text-decoration: none;
+  transition: 0.3s ease;
+  background: transparent;
+}
+
+.btn-whatsapp svg {
+  width: 18px;
+  height: 18px;
+}
+
+.btn-whatsapp:hover {
+  background: #25D366;
+  border: 1px solid #25D366;
+  color: #fff;
+}
+
+/* ===== MAPA ===== */
+.maps-embed iframe {
+  width: 100%;
+  height: 370px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+  display: block;
+}
+
+/* FORMULARIO DE CONTATO ----------------------------------------------------------------------------------------------------------------------------------------------------- */
+.form-section {
+  position: relative;
+  background: #011526;
+  padding: 80px 0;
+  overflow: hidden;
+}
+
+.form-container {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  gap: 40px;
+  position: relative;
+  z-index: 2;
+}
+
+/* ===== BLUR LARANJA FUNDO ===== */
+.bg-blur {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, #ff7f35, transparent 70%);
+  filter: blur(120px);
+  left: -150px;
+  top: 50px;
+  z-index: 1;
+}
+
+/* ===== FORMULÁRIO ===== */
+.form-box {
+  width: 420px;
+  padding: 40px;
+  border-radius: 16px;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-box h3 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.form-box input,
+.form-box select {
+  background: rgba(255,255,255,0.08);
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.btn-enviar {
+  margin-top: 10px;
+  background: linear-gradient(90deg, #ff7f35, #f25c05);
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* ===== LADO DIREITO ===== */
+.right-side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* ===== CONTATO ===== */
+.contact-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f25c05;
+  padding: 15px 15px;
+  border-radius: 20px;
+  color: #fff;
+  gap: 20px;
+}
+
+/* LADO ESQUERDO */
+.contact-left {
+  max-width: 380px;
+}
+
+.contact-left h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.contact-left p {
+  font-size: 14px;
+  line-height: 1.5;
+  opacity: 0.95;
+}
+
+/* LADO DIREITO */
+.contact-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 300px;
+}
+
+.contact-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-info strong {
+  font-size: 14px;
+  display: block;
+}
+
+.contact-info span {
+  font-size: 12px;
+  opacity: 0.9;
+}
+
+/* BOTÃO */
+.btn-whats {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255,255,255,0.2);
+  padding: 8px 18px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.btn-whats:hover {
+  background: rgba(255,255,255,0.35);
+}
+
+/* LINHA DIVISÓRIA */
+.divider {
+  height: 1px;
+  background: rgba(255,255,255,0.3);
+}
+
+/* ===== CATÁLOGO ===== */
+.catalog-box {
+  background: linear-gradient(135deg, #ff7f35, #f25c05);
+  height: 200px;
+  border-radius: 16px;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.btn-catalog {
+  background: #fff;
+  color: #011526;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1999,24 +2263,6 @@ body {
   display: flex;
 }
 
-.maps-section {
-  width: 100%;
-  min-height: 600px;
-  left: 0px;
-  top: 3755px;
-  position: absolute;
-  background: white;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 60px 40px;
-  gap: 30px;
-  display: flex;
-  box-sizing: border-box;
-}
-
 .ellipse-1 {
   left: -74px;
   top: -29px;
@@ -2400,8 +2646,7 @@ body {
   }
 
   .products-section,
-  .about-section,
-  .maps-section {
+  .about-section{
     width: 100%;
     padding: 40px 20px;
   }
@@ -2475,7 +2720,6 @@ body {
   .about-section,
   .products-section,
   .reviews,
-  .maps-section,
   .form-section {
     padding: 60px 24px;
   }
@@ -2734,7 +2978,6 @@ body {
   .hero-section,
   .about-section,
   .reviews,
-  .maps-section,
   .form-section {
     padding: 40px 16px;
   }
@@ -2819,7 +3062,6 @@ body {
   .hero-section,
   .about-section,
   .reviews,
-  .maps-section,
   .form-section {
     padding: 24px 12px;
   }

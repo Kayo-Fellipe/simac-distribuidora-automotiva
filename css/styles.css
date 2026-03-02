@@ -855,3 +855,848 @@ body {
   font-weight: 600;
   cursor: pointer;
 }
+
+/* ============================================================
+   RESPONSIVIDADE - MEDIA QUERIES
+   ============================================================ */
+
+/* ===== DESKTOP MENOR (≤ 1200px) ===== */
+@media only screen and (max-width: 1200px) {
+  /* HERO */
+  .hero-title {
+    font-size: 56px;
+  }
+
+  .hero-description {
+    font-size: 20px;
+  }
+
+  .hero-brands {
+    font-size: 18px;
+    padding: 12px 24px;
+  }
+
+  /* ABOUT */
+  .about-container {
+    gap: 30px;
+  }
+
+  .about-left {
+    margin-right: -40px;
+  }
+
+  .about-left h2 {
+    font-size: 30px;
+  }
+
+  .about-highlight {
+    font-size: 20px;
+  }
+
+  .about-image img {
+    width: 110%;
+    max-width: 700px;
+  }
+
+  /* REVIEWS */
+  .reviews-top h2 {
+    font-size: 28px;
+  }
+
+  .reviews-top p {
+    font-size: 18px;
+  }
+
+  /* PRODUCTS */
+  .products-header h2 {
+    font-size: 28px;
+  }
+
+  .products-header p {
+    font-size: 18px;
+    margin: 0px 50px;
+  }
+
+  [class^="card-"] span {
+    font-size: 28px;
+  }
+
+  [class^="card-"] h3 {
+    font-size: 20px;
+  }
+
+  /* FORM */
+  .form-container {
+    max-width: 1200px;
+    width: 95%;
+    padding: 0 20px;
+  }
+
+  .form-box {
+    width: 55%;
+  }
+
+  /* MAPS */
+  .maps-info h2 {
+    font-size: 28px;
+  }
+
+  .maps-info p {
+    font-size: 18px;
+  }
+}
+
+/* ===== TABLET HORIZONTAL (≤ 992px) ===== */
+@media only screen and (max-width: 992px) {
+  /* NAVBAR */
+  .nav-links {
+    gap: 20px;
+  }
+
+  .nav-links a {
+    font-size: 14px;
+  }
+
+  .nav-buttons .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  /* HERO */
+  .hero {
+    min-height: 70vh;
+  }
+
+  .hero-title {
+    font-size: 48px;
+  }
+
+  .hero-description {
+    font-size: 18px;
+  }
+
+  .hero-brands {
+    font-size: 16px;
+    padding: 10px 20px;
+    gap: 12px;
+  }
+
+  .arrow-icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  /* ABOUT */
+  .about {
+    padding: 60px 20px;
+  }
+
+  .about-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .about-left,
+  .about-right {
+    max-width: 100%;
+  }
+
+  .about-left {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .about-left h2 {
+    font-size: 28px;
+  }
+
+  .about-highlight {
+    font-size: 18px;
+  }
+
+  .about-buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .about-image {
+    order: 2;
+  }
+
+  .about-image img {
+    width: 80%;
+    max-width: 500px;
+  }
+
+  .about-right {
+    order: 3;
+  }
+
+  .about-stats {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* FUNDO AZUL */
+  .fundo-azul {
+    height: 50vh;
+  }
+
+  /* REVIEWS */
+  .reviews {
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .reviews-top {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .reviews-top h2 {
+    font-size: 24px;
+  }
+
+  .reviews-top p {
+    text-align: left;
+    font-size: 16px;
+  }
+
+  /* PRODUCTS */
+  .products {
+    height: auto;
+    padding: 60px 20px;
+  }
+
+  .products-header p {
+    margin: 0px 20px;
+  }
+
+  .products-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card-1,
+  .card-2,
+  .card-3,
+  .card-4 {
+    padding: 20px 30px;
+  }
+
+  .card-1 img {
+    max-width: 140px;
+    margin-right: -30px;
+  }
+
+  .card-2 img {
+    width: 50%;
+    margin-left: 50px;
+  }
+
+  .card-3 img {
+    width: 35%;
+  }
+
+  .card-4 img {
+    width: 30%;
+    margin-right: -30px;
+  }
+
+  /* MAPS */
+  .maps-top {
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+  }
+
+  .btn-whatsapp {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* FORM */
+  .form-container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .form-box {
+    width: 100%;
+  }
+
+  .right-side {
+    width: 100%;
+  }
+
+  .contact-box {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .contact-left {
+    max-width: 100%;
+  }
+
+  .contact-right {
+    width: 100%;
+    min-width: auto;
+  }
+
+  .catalog-box {
+    height: 200px;
+  }
+}
+
+/* ===== TABLET PEQUENO / MOBILE GRANDE (≤ 768px) ===== */
+@media only screen and (max-width: 768px) {
+  /* NAVBAR */
+  .navbar {
+    height: auto;
+    min-height: 70px;
+    flex-wrap: wrap;
+    padding: 15px 20px;
+    gap: 15px;
+  }
+
+  .logo img {
+    height: 32px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-buttons {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .nav-buttons .btn {
+    flex: 1;
+    justify-content: center;
+  }
+
+  /* HERO */
+  .hero {
+    padding: 40px 20px;
+    min-height: 60vh;
+  }
+
+  .hero-subtitle {
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+
+  .hero-title {
+    font-size: 36px;
+  }
+
+  .hero-description {
+    font-size: 16px;
+    max-width: 90%;
+  }
+
+  .hero-buttons {
+    width: 100%;
+  }
+
+  .hero-buttons .btn {
+    flex: 1;
+    min-width: 140px;
+  }
+
+  .hero-brands {
+    font-size: 14px;
+    padding: 10px 16px;
+    text-align: center;
+  }
+
+  .hero-brands p {
+    font-size: 12px;
+  }
+
+  /* BRAND STRIP */
+  .brand-item img {
+    height: 22px;
+  }
+
+  /* ABOUT */
+  .about {
+    padding: 40px 20px;
+    border-radius: 0;
+  }
+
+  .about-left h2 {
+    font-size: 24px;
+  }
+
+  .about-highlight {
+    font-size: 16px;
+  }
+
+  .about-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .about-buttons .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .about-image img {
+    width: 90%;
+  }
+
+  .about-stats {
+    width: 100%;
+  }
+
+  .stat {
+    flex: 1;
+    padding: 8px 15px;
+  }
+
+  .stat strong {
+    font-size: 16px;
+  }
+
+  .stat span {
+    font-size: 11px;
+  }
+
+  /* FUNDO AZUL */
+  .fundo-azul {
+    height: 30vh;
+  }
+
+  /* REVIEWS */
+  .reviews {
+    padding: 30px 20px;
+  }
+
+  .reviews-top h2 {
+    font-size: 20px;
+  }
+
+  .reviews-top p {
+    font-size: 14px;
+  }
+
+  /* PRODUCTS */
+  .products {
+    padding: 40px 20px;
+  }
+
+  .products-header {
+    padding: 20px 0;
+  }
+
+  .products-header h2 {
+    font-size: 22px;
+  }
+
+  .products-header p {
+    font-size: 16px;
+    margin: 0px 10px;
+  }
+
+  [class^="card-"] span {
+    font-size: 24px;
+  }
+
+  [class^="card-"] h3 {
+    font-size: 18px;
+  }
+
+  [class^="card-"] p {
+    font-size: 13px;
+  }
+
+  .card-video {
+    height: 80px;
+  }
+
+  .card-1 {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  .card-1 img {
+    margin-right: 0;
+    margin-top: 20px;
+    max-width: 120px;
+  }
+
+  .card-2 {
+    padding: 20px;
+  }
+
+  .card-2 img {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .card-3 {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .card-3 img {
+    width: 50%;
+    margin-bottom: 0;
+  }
+
+  .card-4 {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  .card-4 img {
+    width: 40%;
+    margin-right: 0;
+    margin-top: 20px;
+  }
+
+  /* MAPS */
+  .maps-section {
+    padding: 30px 20px;
+    border-radius: 0;
+  }
+
+  .maps-info h2 {
+    font-size: 22px;
+  }
+
+  .maps-info p {
+    font-size: 14px;
+  }
+
+  .maps-embed iframe {
+    height: 300px;
+  }
+
+  /* FORM */
+  .form-section {
+    padding: 40px 20px;
+  }
+
+  .form-box {
+    padding: 30px 20px;
+  }
+
+  .contact-item {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .btn-whats {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .catalog-box {
+    height: 150px;
+  }
+}
+
+/* ===== MOBILE COMPACTO (≤ 576px) ===== */
+@media only screen and (max-width: 576px) {
+  /* NAVBAR */
+  .navbar {
+    padding: 12px 15px;
+  }
+
+  .logo img {
+    height: 28px;
+  }
+
+  .nav-buttons {
+    gap: 10px;
+  }
+
+  .nav-buttons .btn {
+    font-size: 13px;
+    padding: 8px 16px;
+  }
+
+  /* HERO */
+  .hero {
+    padding: 30px 15px;
+  }
+
+  .hero-subtitle {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+
+  .hero-title {
+    font-size: 28px;
+    margin-bottom: 16px;
+  }
+
+  .hero-description {
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+
+  .hero-buttons .btn {
+    width: 100%;
+  }
+
+  .hero-brands {
+    font-size: 12px;
+    padding: 8px 12px;
+    gap: 8px;
+  }
+
+  .hero-brands p {
+    font-size: 10px;
+  }
+
+  .arrow-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* BRAND STRIP */
+  .brand-strip {
+    padding: 15px 0;
+  }
+
+  .brand-item img {
+    height: 18px;
+  }
+
+  .brand-track {
+    gap: 20px;
+  }
+
+  /* ABOUT */
+  .about {
+    padding: 30px 15px;
+  }
+
+  .about-left h2 {
+    font-size: 20px;
+  }
+
+  .about-highlight {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .about-buttons {
+    margin-top: 20px;
+    gap: 10px;
+  }
+
+  .about-buttons .btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .about-image img {
+    width: 100%;
+  }
+
+  .about-right p,
+  .about-list {
+    font-size: 13px;
+  }
+
+  .about-stats {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .stat {
+    width: 100%;
+    padding: 10px 20px;
+  }
+
+  /* FUNDO AZUL */
+  .fundo-azul {
+    height: 20vh;
+  }
+
+  /* REVIEWS */
+  .reviews {
+    padding: 20px 15px;
+  }
+
+  .reviews-top h2 {
+    font-size: 18px;
+  }
+
+  .reviews-top p {
+    font-size: 13px;
+  }
+
+  .reviews-box {
+    padding: 15px 0;
+  }
+
+  /* PRODUCTS */
+  .products {
+    padding: 30px 15px;
+  }
+
+  .products-header {
+    padding: 15px 0;
+    gap: 10px;
+  }
+
+  .products-header h2 {
+    font-size: 18px;
+  }
+
+  .products-header p {
+    font-size: 14px;
+    margin: 0;
+  }
+
+  .products-grid {
+    gap: 15px;
+  }
+
+  [class^="card-"] span {
+    font-size: 20px;
+  }
+
+  [class^="card-"] h3 {
+    font-size: 16px;
+  }
+
+  [class^="card-"] p {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .card-video {
+    height: 60px;
+  }
+
+  .card-1,
+  .card-2,
+  .card-3,
+  .card-4 {
+    padding: 20px 15px;
+  }
+
+  .card-1 img {
+    max-width: 100px;
+    margin-top: 15px;
+  }
+
+  .card-2 img {
+    width: 80%;
+    margin-top: 20px;
+  }
+
+  .card-3 img {
+    width: 60%;
+  }
+
+  .card-4 img {
+    width: 50%;
+    margin-top: 15px;
+  }
+
+  /* MAPS */
+  .maps-section {
+    padding: 20px 15px;
+  }
+
+  .maps-info h2 {
+    font-size: 18px;
+  }
+
+  .maps-info p {
+    font-size: 12px;
+  }
+
+  .btn-whatsapp {
+    font-size: 12px;
+    padding: 10px 16px;
+  }
+
+  .maps-embed iframe {
+    height: 250px;
+    border-radius: 15px;
+  }
+
+  /* FORM */
+  .form-section {
+    padding: 30px 15px;
+  }
+
+  .form-box {
+    padding: 20px 15px;
+  }
+
+  .form-box h3 {
+    font-size: 13px;
+  }
+
+  .form-box input,
+  .form-box select {
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  .btn-enviar {
+    padding: 14px;
+    font-size: 15px;
+  }
+
+  .contact-left h2 {
+    font-size: 22px;
+  }
+
+  .contact-left p {
+    font-size: 13px;
+  }
+
+  .contact-info strong {
+    font-size: 13px;
+  }
+
+  .contact-info span {
+    font-size: 11px;
+  }
+
+  .btn-whats {
+    font-size: 13px;
+    padding: 10px 16px;
+  }
+
+  .catalog-box {
+    height: 120px;
+  }
+
+  .btn-catalog {
+    font-size: 13px;
+    padding: 10px 16px;
+  }
+
+  /* PREVENIR SCROLL HORIZONTAL */
+  body {
+    overflow-x: hidden;
+  }
+
+  * {
+    max-width: 100%;
+  }
+}

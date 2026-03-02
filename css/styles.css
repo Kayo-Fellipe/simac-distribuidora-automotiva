@@ -700,10 +700,10 @@ body {
 }
 
 .form-container {
-  width: 1200px;
-  margin: auto;
+  width: 1280px;
+  margin: 0 auto;
   display: flex;
-  gap: 40px;
+  gap: 20px;
   position: relative;
   z-index: 2;
 }
@@ -722,7 +722,7 @@ body {
 
 /* ===== FORMULÁRIO ===== */
 .form-box {
-  width: 420px;
+  width: 627px;
   padding: 40px;
   border-radius: 16px;
   background: rgba(255,255,255,0.05);
@@ -762,7 +762,6 @@ body {
 
 /* ===== LADO DIREITO ===== */
 .right-side {
-  flex: 1;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -774,15 +773,15 @@ body {
   justify-content: space-between;
   align-items: center;
   background: #f25c05;
-  padding: 15px 15px;
+  padding: 20px 20px;
   border-radius: 20px;
   color: #fff;
-  gap: 20px;
+  gap: 45px;
 }
 
 /* LADO ESQUERDO */
 .contact-left {
-  max-width: 380px;
+  max-width: 250px;
 }
 
 .contact-left h2 {
@@ -801,7 +800,7 @@ body {
 .contact-right {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
   min-width: 300px;
 }
 
@@ -849,8 +848,8 @@ body {
 /* ===== CATÁLOGO ===== */
 .catalog-box {
   background: linear-gradient(135deg, #ff7f35, #f25c05);
-  height: 200px;
-  border-radius: 16px;
+  height: 300px;
+  border-radius: 15px;
   position: relative;
   display: flex;
   align-items: flex-start;
@@ -2334,21 +2333,6 @@ body {
   display: inline-flex;
 }
 
-.form-contact-container {
-  align-self: stretch;
-  height: 136px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  background: #F25C05;
-  border-radius: 15px;
-  outline: 1px rgba(255, 255, 255, 0.10) solid;
-  outline-offset: -1px;
-  justify-content: center;
-  align-items: center;
-  gap: 45px;
-  display: inline-flex;
-}
-
 .vector-1 {
   left: 0px;
   top: 0px;
@@ -2395,21 +2379,6 @@ body {
   align-items: flex-start;
   gap: 25px;
   display: flex;
-}
-
-.form-container {
-  width: 100%;
-  max-width: 1280px;
-  left: 50%;
-  top: 90px;
-  position: absolute;
-  transform: translateX(-50%);
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 25px;
-  display: flex;
-  box-sizing: border-box;
-  padding: 0 20px;
 }
 
 .form-section {
@@ -2690,13 +2659,6 @@ body {
     height: auto;
   }
 
-  .form-container {
-    width: 100%;
-    padding: 0 20px;
-    box-sizing: border-box;
-    flex-direction: column;
-  }
-
   .form {
     width: 100%;
   }
@@ -2808,12 +2770,6 @@ body {
     left: 0 !important;
     top: 0 !important;
     margin-bottom: 20px;
-  }
-
-  .form-container {
-    flex-direction: column;
-    position: relative;
-    top: 0;
   }
 
   .form,
@@ -2931,13 +2887,6 @@ body {
     width: 100%;
     height: auto;
     font-size: 16px;
-  }
-
-  .form-contact-container {
-    flex-direction: column;
-    height: auto;
-    gap: 20px;
-    padding: 20px;
   }
 
   .form-text-input,

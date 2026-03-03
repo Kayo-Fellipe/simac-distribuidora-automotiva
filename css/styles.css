@@ -99,6 +99,93 @@ body {
   background: rgba(255, 255, 255, 0.15);
 }
 
+/* MENU MOBILE (HAMBURGER) ------------------------------------------- */
+.mobile-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 6px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1001;
+}
+
+.mobile-toggle span {
+  width: 24px;
+  height: 3px;
+  background: #ffffff;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+  transform-origin: center;
+}
+
+.mobile-toggle.active span:nth-child(1) {
+  transform: rotate(45deg) translate(10px, 10px);
+}
+
+.mobile-toggle.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.mobile-toggle.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -7px);
+}
+
+/* MENU MOBILE ------------------------------------------- */
+.mobile-menu {
+  position: fixed;
+  left: -100%;
+  top: 80px;
+  width: 100%;
+  height: calc(100vh - 80px);
+  background: rgba(0, 10, 18, 0.98);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  z-index: 999;
+  transition: left 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 20px;
+  gap: 40px;
+  overflow-y: auto;
+}
+
+.mobile-menu.active {
+  left: 0;
+}
+
+.mobile-nav-links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.mobile-nav-links a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 500;
+  font-size: 18px;
+  transition: 0.3s ease;
+  display: block;
+}
+
+.mobile-nav-links a:hover {
+  color: #ff6a00;
+}
+
+.mobile-menu-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.mobile-menu-buttons .btn {
+  width: 100%;
+  justify-content: center;
+  font-size: 15px;
+  padding: 14px 28px;
+}
+
 /* INICIO ----------------------------------------------------------------------------------------------------------- */
 .hero {
   width: 100%;
@@ -1154,9 +1241,10 @@ body {
   .navbar {
     height: auto;
     min-height: 70px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     padding: 15px 20px;
     gap: 15px;
+    justify-content: space-between;
   }
 
   .logo img {
@@ -1168,13 +1256,16 @@ body {
   }
 
   .nav-buttons {
-    width: 100%;
-    justify-content: center;
+    display: none;
   }
 
-  .nav-buttons .btn {
-    flex: 1;
-    justify-content: center;
+  .mobile-toggle {
+    display: flex;
+  }
+
+  .mobile-menu {
+    top: 70px;
+    height: calc(100vh - 70px);
   }
 
   /* HERO */
@@ -1417,13 +1508,27 @@ body {
     height: 28px;
   }
 
-  .nav-buttons {
-    gap: 10px;
+  .mobile-toggle span {
+    width: 20px;
+    height: 2.5px;
   }
 
-  .nav-buttons .btn {
-    font-size: 13px;
-    padding: 8px 16px;
+  .mobile-menu {
+    padding: 30px 15px;
+    gap: 30px;
+  }
+
+  .mobile-nav-links {
+    gap: 16px;
+  }
+
+  .mobile-nav-links a {
+    font-size: 16px;
+  }
+
+  .mobile-menu-buttons .btn {
+    font-size: 14px;
+    padding: 12px 24px;
   }
 
   /* HERO */

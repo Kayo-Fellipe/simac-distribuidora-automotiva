@@ -268,8 +268,6 @@ body {
 }
 .about-right p {
   font-size: 14px !important;
-  text-align: justify;
-
 }
 /* TÍTULO */
 .about-left h2 {
@@ -526,6 +524,7 @@ body {
 [class^="card-"] p {
   font-size: 14px !important;
   margin: 5px 0px 0px 0px!important;
+
 }
 
 /* CARD 1 */
@@ -571,7 +570,8 @@ body {
 }
 
 .card-3 img {
-  width: 35%;
+  width: 40%;
+  margin-bottom: -35px;
 }
 
 /* CARD 4 */

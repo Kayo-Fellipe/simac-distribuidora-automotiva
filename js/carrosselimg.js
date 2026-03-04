@@ -3,7 +3,7 @@ const brands = [
   { name: "ACDELCO", logo: "https://i.postimg.cc/J456xcB6/1.png", link: "#"},
   { name: "TRW VARGAS", logo: "https://i.postimg.cc/J456xcBx/2.png", link: "#"},
   { name: "BPROAUTO", logo: "https://i.postimg.cc/rFNnjCtg/3.png", link: "#"},
-  { name: "carollclean", logo: "https://i.postimg.cc/15rCBcNv/4.png", link: "#"},
+  { name: "CAROLLCLEAN", logo: "https://i.postimg.cc/15rCBcNv/4.png", link: "#"},
   { name: "MOBIL", logo: "https://i.postimg.cc/m2yXjNFd/5.png", link: "#"},
   { name: "PARAFLU", logo: "https://i.postimg.cc/5NS7gqFK/6.png", link: "#"},
   { name: "YPF", logo: "https://i.postimg.cc/vHtqhL6S/7.png", link: "#"},

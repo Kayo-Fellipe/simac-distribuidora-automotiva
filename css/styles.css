@@ -316,6 +316,11 @@ body {
   gap: 30px;
   width: max-content;
   animation: scrollBrands 25s linear infinite;
+  white-space: nowrap;
+}
+
+.brand-item {
+  flex-shrink: 0;
 }
 
 .brand-item img {

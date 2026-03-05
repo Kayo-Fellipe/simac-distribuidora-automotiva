@@ -1170,6 +1170,139 @@ body {
    RESPONSIVIDADE - MEDIA QUERIES
    ================================================================================================================================================================================================================ */
 
+/* ===== DESKTOP NOTEBOOK 1366px ===== */
+@media only screen and (max-width: 1366px) and (min-width: 1201px) {
+  /* NAVBAR */
+  .navbar {
+    padding: 0 16px;
+  }
+
+  .nav-links {
+    gap: 24px;
+  }
+
+  .nav-links a {
+    font-size: 14px;
+  }
+
+  /* HERO */
+  .hero {
+    min-height: 75vh;
+  }
+
+  .hero-title {
+    font-size: 60px;
+  }
+
+  .hero-description {
+    font-size: 22px;
+  }
+
+  .hero-brands {
+    font-size: 17px;
+    padding: 12px 24px;
+  }
+
+  /* ABOUT */
+  .about-container {
+    gap: 35px;
+  }
+
+  .about-left {
+    margin-right: -50px;
+  }
+
+  .about-left h2 {
+    font-size: 32px;
+  }
+
+  .about-highlight {
+    font-size: 22px;
+  }
+
+  .about-image img {
+    width: 115%;
+    max-width: 650px;
+  }
+
+  /* PROMOTIONAL SLIDER */
+  .slide-content {
+    gap: 60px;
+  }
+
+  .slide-text h2 {
+    font-size: 2rem;
+  }
+
+  .slide-image img {
+    max-width: 360px;
+    height: 280px;
+  }
+
+  /* REVIEWS */
+  .reviews-top h2 {
+    font-size: 30px;
+  }
+
+  .reviews-top p {
+    font-size: 20px;
+  }
+
+  /* PRODUCTS */
+  .products {
+    height: auto;
+  }
+
+  .products-header h2 {
+    font-size: 30px;
+  }
+
+  .products-header p {
+    font-size: 20px;
+    margin: 0px 60px;
+  }
+
+  [class^="card-"] span {
+    font-size: 30px;
+  }
+
+  [class^="card-"] h3 {
+    font-size: 22px;
+  }
+
+  .card-1 {
+    padding: 20px 50px;
+  }
+
+  .card-1 img {
+    max-width: 170px;
+  }
+
+  /* FORM */
+  .form-container {
+    max-width: 1280px;
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .form-box {
+    width: 50%;
+  }
+
+  .right-side {
+    flex: 1;
+  }
+
+  /* MAPS */
+  .maps-info h2 {
+    font-size: 30px;
+  }
+
+  .maps-info p {
+    font-size: 20px;
+  }
+}
+
 /* ===== DESKTOP MENOR (≤ 1200px) ===== */
 @media only screen and (max-width: 1200px) {
   /* HERO */

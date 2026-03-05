@@ -152,6 +152,9 @@ body {
   cursor: pointer;
   position: relative;
   z-index: 1001;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
 }
 
 .mobile-toggle span {
@@ -195,7 +198,7 @@ body {
 }
 
 .mobile-menu.active {
-  left: 0px ;
+  left: 0;
 }
 
 .mobile-nav-links {

@@ -10,7 +10,7 @@ body {
   background-color: #000A12;
 }
 
-/* WhatsApp Button */
+/* WHATSAPP BUTTON ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 .whatsapp-button {
   align-content: center;
   position: fixed;
@@ -54,8 +54,6 @@ body {
     box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
   }
 }
-
-
 
 /* HEADER OCUPA 100% */
 .header {
@@ -793,6 +791,7 @@ body {
 
 .products-header h2{
   font-size: 32px;
+  text-align: center;
 }
 
 .products-header p{
@@ -1187,7 +1186,7 @@ body {
 
   /* HERO */
   .hero {
-    min-height: 75vh;
+    min-height: 100vh;
   }
 
   .hero-title {
@@ -1240,6 +1239,8 @@ body {
   }
 
   /* REVIEWS */
+  .reviews{
+    height: 85vh;  }
   .reviews-top h2 {
     font-size: 30px;
   }
@@ -1407,7 +1408,7 @@ body {
 
   /* HERO */
   .hero {
-    min-height: 70vh;
+    min-height: 90vh;
   }
 
   .hero-title {
@@ -1513,7 +1514,7 @@ body {
 
   .reviews-top {
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
   }
 
   .reviews-top h2 {
@@ -1829,7 +1830,7 @@ body {
   }
 
   .products-header p {
-    font-size: 16px;
+    font-size: 16px!important;
     margin: 0px 10px;
   }
 
@@ -1866,7 +1867,7 @@ body {
   }
 
   .card-2 img {
-    width: 70%;
+    width: 45%;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -1879,7 +1880,7 @@ body {
   }
 
   .card-3 img {
-    width: 50%;
+    width: 35%;
     margin-bottom: 0;
   }
 
@@ -1890,7 +1891,7 @@ body {
   }
 
   .card-4 img {
-    width: 40%;
+    width: 30%;
     margin-right: 0;
     margin-top: 20px;
   }
@@ -1915,7 +1916,7 @@ body {
 
   /* FORM */
   .form-section {
-    padding: 40px 20px;
+    padding: 40px 0px;
   }
 
   .form-box {
@@ -2070,12 +2071,7 @@ body {
     width: 100%;
     padding: 10px 20px;
   }
-
-  /* FUNDO AZUL */
-  .fundo-azul {
-    height: 20vh;
-  }
-
+  
   /* REVIEWS */
   .reviews {
     padding: 20px 15px;
@@ -2105,10 +2101,11 @@ body {
 
   .products-header h2 {
     font-size: 18px;
+    text-align: center;
   }
 
   .products-header p {
-    font-size: 14px;
+    font-size: 14px !important;
     margin: 0;
   }
 
@@ -2184,7 +2181,7 @@ body {
 
   /* FORM */
   .form-section {
-    padding: 30px 15px;
+    padding: 30px 0px;
   }
 
   .form-box {

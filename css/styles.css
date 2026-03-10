@@ -7,7 +7,7 @@
 
 body {
   font-family: 'DM Sans', sans-serif;
-  background-color: #000A12;
+  background-color: #00101F;
 }
 
 /* WHATSAPP BUTTON ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -58,10 +58,9 @@ body {
 /* HEADER OCUPA 100% */
 .header {
   width: 100%;
-  background: rgba(0, 10, 18, 0.6);
+  background: rgb(0, 16, 31, 0.6);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
-
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   position: sticky;
   top: 0;
@@ -123,7 +122,7 @@ body {
 }
 
 .btn-primary {
-  background: #ff6a00;
+  background: #FF6600;
   color: #ffffff;
 }
 
@@ -185,7 +184,7 @@ body {
   top: 80px;
   width: 100%;
   height: calc(100vh - 80px);
-  background: rgba(0, 10, 18, 0.98);
+  background: rgb(0, 16, 31, 0.6);
   backdrop-filter: blur(14px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   z-index: 999;
@@ -218,7 +217,7 @@ body {
 }
 
 .mobile-nav-links a:hover {
-  color: #ff6a00;
+  color: #FF6600;
 }
 
 .mobile-menu-buttons {
@@ -242,7 +241,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(0deg, #000A12 0%, #023159 50%, #000A12 100%);
+  background: linear-gradient(0deg, #00101F 0%, #052A4F 50%, #00101F 100%);
   color: #ffffff;
   text-align: center;
   padding: 0 24px;
@@ -257,7 +256,7 @@ body {
 
 /* SUBTÍTULO */
 .hero-subtitle {
-  color: #ff6a00;
+  color: #FF6600;
   font-size: 20px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -304,7 +303,7 @@ body {
 
 /* BOTÃO LARANJA */
 .btn-primary {
-  background: #ff6a00;
+  background: #FF6600;
   color: #ffffff;
 }
 
@@ -354,7 +353,7 @@ body {
 /* CARROSEL DE MARCAS ------------------------------------------------------------------------------*/
 .brand-strip {
   width: 100%;
-  background: #ff6a00;
+  background: #FF6600;
   overflow: hidden;
   padding: 20px 0;
 }
@@ -421,7 +420,7 @@ body {
 }
 
 .about-left h2 span {
-  color: #f25c05;
+  color: #FF6600;
 }
 
 /* SUBTEXTO */
@@ -472,12 +471,12 @@ body {
 }
 
 .btn-outline-orange {
-  border: 2px solid #f25c05;
-  color: #f25c05;
+  border: 2px solid #FF6600;
+  color: #FF6600;
 }
 
 .btn-outline-orange:hover {
-  background: #f25c05;
+  background: #FF6600;
   color: #fff;
 }
 
@@ -516,7 +515,7 @@ body {
   content: "";
   width: 8px;
   height: 8px;
-  background: #f25c05;
+  background: #FF6600;
   border-radius: 50%;
   position: absolute;
   left: 0;
@@ -530,7 +529,7 @@ body {
 }
 
 .stat {
-  background: #f25c05;
+  background: #FF6600;
   color: #fff;
   padding: 5px 29px; /* padding equilibrado */
   border-radius: 40px;
@@ -551,7 +550,7 @@ body {
 /* Promotional Slider ------------------------------------------------------------------------------------*/
 .promo-slider {
   position: relative;
-  background: #000A12;
+  background: #00101F;
   overflow: hidden;
   min-height: 400px;
 }
@@ -599,7 +598,7 @@ body {
 
 .slide-badge {
   display: inline-block;
-  background: linear-gradient(135deg, #F25C05, #ff7f35);
+  background: linear-gradient(135deg, #FF6600, #ff7f35);
   color: white;
   padding: 0.25rem 1.25rem;
   border-radius: 9999px;
@@ -766,7 +765,7 @@ body {
 /* PRODUTOS ---------------------------------------------------------------------------------------------------------------------- */
 .products {
   height: 100vh;
-  background: linear-gradient(0deg, #000A12 0%, #023159 50%, #000A12 100%);
+  background: #00101F;
   padding: 40px 20px;
   color: #fff;
 }
@@ -843,7 +842,7 @@ body {
 /* CARD 1 */
 .card-1 {
   padding: 20px 60px;
-  background: linear-gradient(135deg, #ff7a1a, #f25c05);
+  background: radial-gradient(circle, #FF6600, #DF4600);
   border-radius: 25px;
   display: flex;
   justify-content: space-between;
@@ -888,7 +887,7 @@ body {
 
 /* CARD 4 */
 .card-4 {
-  background: radial-gradient(circle, #FF7F35, #F25C05);
+  background: radial-gradient(circle, #FF6600, #DF4600);
   border-radius: 25px;
   padding: 0px 45px 0px 25px;
   display: flex;
@@ -961,11 +960,11 @@ body {
   align-items: center;
   gap: 10px;
   padding: 12px 22px;
-  border: 1px solid #000A12;
+  border: 1px solid #00101F;
   border-radius: 40px;
   font-size: 14px;
   font-weight: 600;
-  color: #000A12;
+  color: #00101F;
   text-decoration: none;
   transition: 0.3s ease;
   background: transparent;
@@ -995,7 +994,7 @@ body {
 /* FORMULARIO DE CONTATO ----------------------------------------------------------------------------------------------------------------------------------------------------- */
 .form-section {
   position: relative;
-  background: #000A12;
+  background: #00101F;
   padding: 80px 0;
   overflow: hidden;
 }
@@ -1014,7 +1013,7 @@ body {
   position: absolute;
   width: 600px;
   height: 600px;
-  background: radial-gradient(circle, #ff7f35, transparent 70%);
+  background: radial-gradient(circle, #FF6600, transparent 70%);
   filter: blur(120px);
   left: -150px;
   top: 50px;
@@ -1052,13 +1051,20 @@ body {
 
 .btn-enviar {
   margin-top: 10px;
-  background: linear-gradient(90deg, #ff7f35, #f25c05);
+  background: #FF6600;
   border: none;
   padding: 12px;
   border-radius: 8px;
   color: #fff;
   font-weight: 600;
   cursor: pointer;
+  transition: 0.3s ease;
+
+}
+
+.btn-enviar:hover {
+  background: #ff7f26;
+  transform: translateY(-2px);
 }
 
 /* ===== LADO DIREITO ===== */
@@ -1073,7 +1079,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #f25c05;
+  background: #FF6600;
   padding: 20px 20px;
   border-radius: 20px;
   color: #fff;
@@ -1148,7 +1154,7 @@ body {
 
 /* ===== CATÁLOGO ===== */
 .catalog-box {
-  background: linear-gradient(135deg, #ff7f35, #f25c05);
+  background: #FF6600;
   height: 300px;
   border-radius: 15px;
   position: relative;
